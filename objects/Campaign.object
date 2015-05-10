@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Top_Level_Campaign__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISBLANK(Parent.Parent.Parent.Parent.Name),
+ IF(ISBLANK(Parent.Parent.Parent.Name),
+   IF(ISBLANK(Parent.Parent.Name),
+     IF(ISBLANK(Parent.Name),
+       Name,
+       Parent.Name),
+     Parent.Parent.Name),
+   Parent.Parent.Parent.Name),
+ Parent.Parent.Parent.Parent.Name)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Top Level Campaign</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

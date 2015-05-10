@@ -3,6 +3,9 @@
     <fullName>Top Campaign in Hierarchy</fullName>
     <types>
         <members>Campaign.Top_Level_Campaign__c</members>
+        <members>Campaign.Parent_Campaign_1__c</members>
+        <members>Campaign.Parent_Campaign_2__c</members>
+        <members>Campaign.Parent_Campaign_3__c</members>
         <members>Opportunity.Top_Level_Campaign__c</members>
         <name>CustomField</name>
     </types>

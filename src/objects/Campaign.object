@@ -24,7 +24,7 @@
       <externalId>false</externalId>
       <formula>IF( ISBLANK(Parent.Name),Name,Parent.Name)</formula>
       <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-      <label>Parent Campaign 1</label>
+      <label>Parent Campaign</label>
       <required>false</required>
       <type>Text</type>
       <unique>false</unique>
@@ -39,7 +39,7 @@
                   Parent.Name),
                 Parent.Parent.Name)</formula>
       <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-      <label>Parent Campaign 2</label>
+      <label>Grandparent Campaign</label>
       <required>false</required>
       <type>Text</type>
       <unique>false</unique>
@@ -56,7 +56,7 @@
      Parent.Parent.Name),
    Parent.Parent.Parent.Name)</formula>
       <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-      <label>Parent Campaign 3</label>
+      <label>Great-Grandparent Campaign</label>
       <required>false</required>
       <type>Text</type>
       <unique>false</unique>

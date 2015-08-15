@@ -1,0 +1,15 @@
+{
+	"name": "TopCampaignInHierarchy",
+	"version": "0.0.1",
+	"description": "An example package to explore codeship SFDC deploying",
+	"author": "Christian Carter <cdcarter@gmail.com>",
+
+	"dependencies": {
+		"fs-extra": "~0.23.1",
+		"mavensmate": "~0.0.37"
+	},
+	"preferGlobal": true,
+	"private": true,
+	"analyze": true,
+  "license": "MIT"
+}
